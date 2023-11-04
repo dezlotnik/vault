@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "4ec5180dead4adf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb8dd7d537d322c9",
+        "type": "tabs",
+        "dimension": 41.71888988361683,
+        "children": [
+          {
+            "id": "380470791e913f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "e2533b35f3e33215"
+          }
+        ]
+      },
+      {
+        "id": "b4e1e416f74768f5",
+        "type": "tabs",
+        "dimension": 58.281110116383175,
+        "children": [
+          {
+            "id": "ef93f99ec7171070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "e2533b35f3e33215"
+          },
+          {
+            "id": "bb9535b06fd3309e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OptimalControl/Dynamic Programming for Optimal Control.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d830c0372a2d28df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9db6d8701f31eba0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fa80d018cf6b4a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78dd719964108400",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9db7ce2cdb7a2a36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "finite",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae9536c5f04d79e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "423cc5e87519a680",
+    "type": "split",
+    "children": [
+      {
+        "id": "feb386f64009e601",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fb46f18e0b33bb5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e476317de48de691",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "75a87986c1fda743",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bfb83a21f91ded8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "380470791e913f12",
+  "lastOpenFiles": [
+    "OptimalControl/Optimal Control Problem Statement.md",
+    "OptimalControl/Optimal Control.md",
+    "StateEstimation/Bayes Theorem.md",
+    "StateEstimation/State Estimation.md",
+    "OptimalControl/Dynamic Programming for Optimal Control.md",
+    "OptimalControl/References.md",
+    "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+    "StateEstimation",
+    "OptimalControl/Bellman Equation.md",
+    "Optimization",
+    "OptimalControl/Untitled",
+    "Untitled.md",
+    "OptimalControl"
+  ]
+}
