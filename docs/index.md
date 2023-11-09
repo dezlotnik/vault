@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to David's Obsidian Vault
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
