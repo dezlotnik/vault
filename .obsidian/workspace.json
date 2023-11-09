@@ -6,7 +6,7 @@
       {
         "id": "cb8dd7d537d322c9",
         "type": "tabs",
-        "dimension": 41.71888988361683,
+        "dimension": 47.16981132075472,
         "children": [
           {
             "id": "380470791e913f12",
@@ -14,19 +14,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "file": "docs/Algorithms and Data Structures/Algorithms and Data Structures.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "e2533b35f3e33215"
+          },
+          {
+            "id": "c2ba9ee2112062a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms and Data Structures/How To Solve Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       },
       {
         "id": "b4e1e416f74768f5",
         "type": "tabs",
-        "dimension": 58.281110116383175,
+        "dimension": 52.83018867924528,
         "children": [
           {
             "id": "ef93f99ec7171070",
@@ -34,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "file": "docs/Algorithms and Data Structures/Algorithms and Data Structures.md",
                 "mode": "preview",
                 "source": true
               }
@@ -47,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OptimalControl/Dynamic Programming for Optimal Control.md",
+                "file": "docs/Optimal Control/Dynamic Programming for Optimal Control.md",
                 "mode": "preview",
                 "source": false
               }
@@ -59,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "file": "docs/Optimal Control/Hamilton Jacobi Bellman Equation.md",
                 "mode": "source",
                 "source": true
               }
@@ -131,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "file": "docs/Algorithms and Data Structures/Algorithms and Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md",
+                "file": "docs/Algorithms and Data Structures/Algorithms and Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OptimalControl/Hamilton Jacobi Bellman Equation.md"
+                "file": "docs/Algorithms and Data Structures/Algorithms and Data Structures.md"
               }
             }
           }
@@ -192,20 +204,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "380470791e913f12",
+  "active": "78dd719964108400",
   "lastOpenFiles": [
-    "OptimalControl/Optimal Control Problem Statement.md",
-    "OptimalControl/Optimal Control.md",
-    "StateEstimation/Bayes Theorem.md",
-    "StateEstimation/State Estimation.md",
-    "OptimalControl/Dynamic Programming for Optimal Control.md",
-    "OptimalControl/References.md",
-    "OptimalControl/Hamilton Jacobi Bellman Equation.md",
-    "StateEstimation",
+    "docs/Optimal Control/Optimal Control.md",
+    "docs/State Estimation/State Estimation.md",
+    "docs/Algorithms and Data Structures/Algorithms and Data Structures.md",
+    "docs/index.md",
+    "docs",
+    "mkdocs.yml",
+    "docs/Optimal Control/Dynamic Programming for Optimal Control.md",
+    "docs/Algorithms and Data Structures/How To Solve Problems.md",
+    "docs/Algorithms and Data Structures/Majority Element Problem.md",
+    "docs/Algorithms and Data Structures/Breadth First Search.md",
+    "docs/Algorithms and Data Structures/Graph Search.md",
+    "docs/State Estimation/Bayes Theorem.md",
+    "docs/Optimal Control/Optimal Control Problem Statement.md",
+    "Optimal Control/index.md",
+    "docs/Optimal Control/Hamilton Jacobi Bellman Equation.md",
+    "docs/Algorithms and Data Structures",
+    "docs/Optimal Control/References.md",
+    "docs/State Estimation",
     "OptimalControl/Bellman Equation.md",
-    "Optimization",
+    "docs/Optimization",
     "OptimalControl/Untitled",
     "Untitled.md",
-    "OptimalControl"
+    "docs/Optimal Control"
   ]
 }
