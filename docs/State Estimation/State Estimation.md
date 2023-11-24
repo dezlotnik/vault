@@ -5,5 +5,6 @@
 
 %% Begin Waypoint %%
 - [[Bayes Theorem]]
+- [[Clustering]]
 
 %% End Waypoint %%

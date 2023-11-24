@@ -1,3 +1,5 @@
+Similar to [[Depth First Search]], but we use a [[Queue]] instead of a [[Stack]].
+
 The algorithm works as follows:
 
 1. Start by putting any one of the graph's vertices at the back of a queue.
