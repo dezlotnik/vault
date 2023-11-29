@@ -1,3 +1,9 @@
+---
+id: Dynamic Programming for Optimal Control
+aliases: []
+tags: []
+---
+
 The goal is to solve the following optimization problem,
 
 ![[Optimal Control Problem Statement#^9df567]]
@@ -41,4 +47,6 @@ $$
 > [!tip] Optimal Rate of Change of Cost-to-Go
 > Under the optimal policy, the value function, or cost-to-go, decreases at a rate equal to the cost incurred at the current state. If the current cost is high the value function will decrease rapidly.
 
-
+This is a stricter condition than [[Lyapunov Stability]], where the Lyapunov
+function only needs to be strictly less than zero to guarantee asymptotic
+stability.
