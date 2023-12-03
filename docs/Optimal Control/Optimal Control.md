@@ -1,3 +1,11 @@
+---
+id: Optimal Control
+aliases:
+  - Optimal Control
+tags: []
+---
+
+# Optimal Control
 
 %% Begin Waypoint %%
 - [[Dynamic Programming for Optimal Control]]

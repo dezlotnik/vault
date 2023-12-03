@@ -1,10 +1,20 @@
+---
+id: Optimal Control Problem Statement
+aliases:
+  - Optimal Control Problem Statement
+tags: []
+---
+
+# Optimal Control Problem Statement
+
 [[Dynamic Programming for Optimal Control]]
 
 ## Continuous Time Finite Horizon
 
 $$
 \begin{aligned}
-	& \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t), t) \mathrm{d}t \\
+	& \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t),
+        t) \mathrm{d}t \\
 	& \text{subject to} \ \dot{x} = f(x, u, t)
 \end{aligned}
 $$

@@ -4,6 +4,7 @@ aliases:
   - Breadth First Search
 tags: []
 ---
+
 # Breadth First Search
 
 Similar to [[Depth First Search]], but we use a [[Queue]] instead of a [[Stack]].
@@ -30,5 +31,3 @@ while (queue):
 		if (not neighbors in visited):
 			queue.append(neighbor)
 ```
-- [ ] this is a task
-- [x] this
