@@ -23,7 +23,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#continuous-time-finite-horizon">
+<a class="md-skip" href="#optimal-control-problem-statement">
           Skip to content
         </a>
 </div>
@@ -132,8 +132,18 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Array/">
+        Array
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Breadth%20First%20Search/">
         Breadth First Search
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Depth%20First%20Search/">
+        Depth First Search
       </a>
 </li>
 <li class="md-nav__item">
@@ -142,13 +152,28 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Hash%20Map/">
+        Hash Map (Dictionary)
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/How%20To%20Solve%20Problems/">
-        How To Solve Problems
+        How to Solve Problems
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Linked%20List/">
+        Linked List
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Majority%20Element%20Problem/">
         Majority Element Problem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Algorithms%20and%20Data%20Structures/Tree/">
+        Tree
       </a>
 </li>
 </ul>
@@ -168,7 +193,7 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../Dynamic%20Programming%20for%20Optimal%20Control/">
-        Dynamic Programming for Optimal Control
+        Dynamic Programming
       </a>
 </li>
 <li class="md-nav__item">
@@ -235,6 +260,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../../State%20Estimation/Clustering/">
+        K-Means Clustering
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../../State%20Estimation/State%20Estimation/">
         State Estimation
       </a>
@@ -273,12 +303,13 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Optimal Control Problem Statement</h1>
+<h1 id="optimal-control-problem-statement">Optimal Control Problem Statement<a class="headerlink" href="#optimal-control-problem-statement" title="Permanent link">¶</a></h1>
 <p><a href="../Dynamic%20Programming%20for%20Optimal%20Control/">Dynamic Programming for Optimal Control</a></p>
 <h2 id="continuous-time-finite-horizon">Continuous Time Finite Horizon<a class="headerlink" href="#continuous-time-finite-horizon" title="Permanent link">¶</a></h2>
 <div class="arithmatex">\[
 \begin{aligned}
-    &amp; \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t), t) \mathrm{d}t \\
+    &amp; \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t),
+        t) \mathrm{d}t \\
     &amp; \text{subject to} \ \dot{x} = f(x, u, t)
 \end{aligned}
 \]</div>

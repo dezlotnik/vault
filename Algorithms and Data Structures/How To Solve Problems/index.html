@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="../Graph%20Search/" rel="prev"/>
-<link href="../Majority%20Element%20Problem/" rel="next"/>
+<link href="../Hash%20Map/" rel="prev"/>
+<link href="../Linked%20List/" rel="next"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.6" name="generator"/>
-<title>How To Solve Problems - David's Notes</title>
+<title>How to Solve Problems - David's Notes</title>
 <link href="../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -23,7 +23,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#understanding-a-computational-problem">
+<a class="md-skip" href="#how-to-solve-problems">
           Skip to content
         </a>
 </div>
@@ -47,7 +47,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              How To Solve Problems
+              How to Solve Problems
             
           </span>
 </div>
@@ -132,8 +132,18 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../Array/">
+        Array
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../Breadth%20First%20Search/">
         Breadth First Search
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Depth%20First%20Search/">
+        Depth First Search
       </a>
 </li>
 <li class="md-nav__item">
@@ -141,32 +151,30 @@
         Graph Search
       </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Hash%20Map/">
+        Hash Map (Dictionary)
+      </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          How To Solve Problems
-          <span class="md-nav__icon md-icon"></span>
-</label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        How To Solve Problems
+        How to Solve Problems
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#understanding-a-computational-problem">
-    Understanding a Computational Problem
-  </a>
 </li>
-</ul>
-</nav>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Linked%20List/">
+        Linked List
+      </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../Majority%20Element%20Problem/">
         Majority Element Problem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tree/">
+        Tree
       </a>
 </li>
 </ul>
@@ -186,7 +194,7 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../Optimal%20Control/Dynamic%20Programming%20for%20Optimal%20Control/">
-        Dynamic Programming for Optimal Control
+        Dynamic Programming
       </a>
 </li>
 <li class="md-nav__item">
@@ -230,6 +238,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../../State%20Estimation/Clustering/">
+        K-Means Clustering
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../../State%20Estimation/State%20Estimation/">
         State Estimation
       </a>
@@ -246,34 +259,23 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#understanding-a-computational-problem">
-    Understanding a Computational Problem
-  </a>
-</li>
-</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>How To Solve Problems</h1>
-<h2 id="understanding-a-computational-problem">Understanding a Computational Problem<a class="headerlink" href="#understanding-a-computational-problem" title="Permanent link">¶</a></h2>
-<p>A problem is defined by a set of possible inputs and their relationship to the desired output.</p>
-<p>Example, given your birthday and the current date, calculate your age in days.</p>
+<h1 id="how-to-solve-problems">How to Solve Problems<a class="headerlink" href="#how-to-solve-problems" title="Permanent link">¶</a></h1>
+<p>A problem is defined by a set of possible inputs and their relationship to the<br/>
+desired output.</p>
 <ol>
 <li>Don't panic!</li>
 <li>What are the inputs?</li>
 <li>What are the outputs?</li>
-<li>Work through some examples by hand. What's the relationship between the inputs and outputs?</li>
-<li>Try and develop simple mechanical solution (don't optimize prematurely)</li>
-<li>Develop incrementally, and test as you go</li>
+<li>Work through some examples by hand. What's the relationship between the<br/>
+inputs and outputs?</li>
+<li>Try and develop a simple mechanical solution (don't optimize prematurely).</li>
+<li>Develop incrementally, and test as you go.</li>
 </ol>
 </article>
 </div>

@@ -5,8 +5,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="../How%20To%20Solve%20Problems/" rel="prev"/>
-<link href="../../Optimal%20Control/Dynamic%20Programming%20for%20Optimal%20Control/" rel="next"/>
+<link href="../Linked%20List/" rel="prev"/>
+<link href="../Tree/" rel="next"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.6" name="generator"/>
 <title>Majority Element Problem - David's Notes</title>
@@ -23,7 +23,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#solution-1-map-dictionary">
+<a class="md-skip" href="#majority-element-problem">
           Skip to content
         </a>
 </div>
@@ -132,8 +132,18 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../Array/">
+        Array
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../Breadth%20First%20Search/">
         Breadth First Search
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Depth%20First%20Search/">
+        Depth First Search
       </a>
 </li>
 <li class="md-nav__item">
@@ -142,8 +152,18 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../Hash%20Map/">
+        Hash Map (Dictionary)
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../How%20To%20Solve%20Problems/">
-        How To Solve Problems
+        How to Solve Problems
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Linked%20List/">
+        Linked List
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
@@ -174,6 +194,11 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tree/">
+        Tree
+      </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -191,7 +216,7 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../Optimal%20Control/Dynamic%20Programming%20for%20Optimal%20Control/">
-        Dynamic Programming for Optimal Control
+        Dynamic Programming
       </a>
 </li>
 <li class="md-nav__item">
@@ -235,6 +260,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../../State%20Estimation/Clustering/">
+        K-Means Clustering
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../../State%20Estimation/State%20Estimation/">
         State Estimation
       </a>
@@ -273,7 +303,7 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Majority Element Problem</h1>
+<h1 id="majority-element-problem">Majority Element Problem<a class="headerlink" href="#majority-element-problem" title="Permanent link">¶</a></h1>
 <div class="admonition question">
 <p class="admonition-title">Problem</p>
 <p>Given an array <code>nums</code> of size <code>n</code>, return the <em>majority element</em>.<br/>
@@ -281,7 +311,8 @@ The majority element is the element that appears more than <code>⌊n / 2⌋</c
 You may assume that the majority element always exists in the array.</p>
 </div>
 <h2 id="solution-1-map-dictionary">Solution 1: Map / Dictionary<a class="headerlink" href="#solution-1-map-dictionary" title="Permanent link">¶</a></h2>
-<p>Use a [[Hash Table]] to store the frequency of numbers in the array. Return number with desired frequency.</p>
+<p>Use a [[Hash Table]] to store the frequency of numbers in the array. Return<br/>
+number with desired frequency.</p>
 <p>time: O(n)<br/>
 space: O(n)</p>
 <h2 id="solution-2-voting-algorithm">Solution 2: Voting Algorithm<a class="headerlink" href="#solution-2-voting-algorithm" title="Permanent link">¶</a></h2>
