@@ -13,7 +13,7 @@ tags: []
 > You may assume that the majority element always exists in the array.
 
 ## Solution 1: Map / Dictionary
-Use a [[Hash Table]] to store the frequency of numbers in the array. Return
+Use a [[Hash Map]] to store the frequency of numbers in the array. Return
 number with desired frequency.
 
 time: O(n)
