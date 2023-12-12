@@ -19,7 +19,7 @@ A tree is a type of [[Graph]] with no cycles.
 Traversing a tree is visiting all the nodes once.
 This is used for searching, inserting, and deleting nodes.
 
-There are two types
+Two common methods are
 - [[Depth First Search]]
 - [[Breadth First Search]]
 

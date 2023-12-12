@@ -7,7 +7,10 @@ tags: []
 
 # Breadth First Search
 
-Similar to [[Depth First Search]], but we use a [[Queue]] instead of a [[Stack]].
+Breadth first search is a [[Graph Search]] algorithm. It can also used for
+[[Tree]] traversal.
+It is similar to [[Depth First Search]], but we use a [[Queue]] instead of a
+[[Stack]].
 Since a [[Queue]] is a FIFO structure, we will visit all children of a visited
 node before visiting the "grandchildren".
 
@@ -18,6 +21,9 @@ The algorithm works as follows:
 3. Create a list of that vertex's adjacent nodes. Add the ones which aren't in
 the visited list to the back of the queue.
 4. Keep repeating steps 2 and 3 until the queue is empty.
+
+Breadth first search for [[Tree]] traversal is similar, however we don't need
+to keep track of visited nodes since a [[Tree]] will contain no cycles.
 
 ```python
 queue = [start_node]
