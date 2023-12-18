@@ -19,8 +19,11 @@ tags: []
 - [[Hash Map]]
 
 ## Algorithms
+- [[Binary Search]]
 - [[Breadth First Search]]
 - [[Depth First Search]]
 - [[Graph Search]]
+- [[Bubble Sort]]
+- [[Merge Sort]]
 - [[Majority Element Problem]]
 
