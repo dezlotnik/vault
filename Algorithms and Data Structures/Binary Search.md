@@ -20,17 +20,15 @@ the half of the array in which we know the element won't occur in.
 ## Python implementation
 
 ```python
-def binary_search(array, target):
-    l = 0
-    u = len(array) - 1
-    while u > l:
-        mid = l + (u - l)//2
+def binary_search(array, target, start, end):
+    while end >= start:
+        mid = start + (end - start)//2
         if (array[mid] == target):
             return mid
         if (array[mid] < target):
-            l = mid + 1
+            start = mid + 1
         else:
-            u = mid - 1
+            end = mid - 1
     return -1
 ```
 
@@ -45,7 +43,7 @@ def binary_search(array, target):
         if (array[mid] < target):
             return binary_search_recursive(array, target, mid + 1, end_index)
         else:
-            return binary_search_recursive(array, target, start_index, end_index - 1)
+            return binary_search_recursive(array, target, start_index, mid - 1)
 
     return binary_search_recursive(array, target, 0, len(array) - 1)
 ```

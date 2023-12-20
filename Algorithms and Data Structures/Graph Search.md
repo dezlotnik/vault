@@ -7,6 +7,7 @@ tags: []
 
 # Graph Search
 
-[[Breadth First Search]]
-[[Depth First Search]]
-[[Dynamic Programming]]
+- [[Breadth First Search]]
+- [[Depth First Search]]
+- [[Dijkstra's]]
+- [[Dynamic Programming]]

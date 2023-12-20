@@ -25,5 +25,6 @@ tags: []
 - [[Graph Search]]
 - [[Bubble Sort]]
 - [[Merge Sort]]
+- [[Quick Sort]]
 - [[Majority Element Problem]]
 

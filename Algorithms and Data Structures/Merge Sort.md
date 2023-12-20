@@ -41,7 +41,7 @@ def merge(left, right):
     return merged
     
 def mergesort(items):
-    # Step 1: (base case)
+    # Step 1: base case
     if len(items) <= 1:
         return items
     

@@ -17,8 +17,8 @@ can be found.
 
 > [!tip] The average lookup time complexity of a hash map is O(1).
 
-A hash map can be thought of as a structure on top of an array that enables the
-use of flexible keys instead of strictly sequential integer indices.
+A hash map can be thought of as a structure on top of an [[Array]] that enables
+the use of flexible keys instead of strictly sequential integer indices.
 
 ## Set
 A set is a data structure that stores unique values without an order. A
