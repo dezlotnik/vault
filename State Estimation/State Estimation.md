@@ -4,7 +4,9 @@
 [[Unscented Kalman Filter]]
 
 %% Begin Waypoint %%
+- [[Bayes Filter]]
 - [[Bayes Theorem]]
 - [[Clustering]]
+- [[Kalman Filter]]
 
 %% End Waypoint %%

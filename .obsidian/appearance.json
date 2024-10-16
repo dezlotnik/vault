@@ -2,5 +2,7 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "textFontFamily": "JetBrainsMonoNL Nerd Font",
-  "baseFontSize": 12
+  "baseFontSize": 12,
+  "showViewHeader": true,
+  "theme": "obsidian"
 }

@@ -3,5 +3,8 @@
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "propertiesInDocument": "hidden",
+  "strictLineBreaks": true,
+  "showInlineTitle": false
 }
