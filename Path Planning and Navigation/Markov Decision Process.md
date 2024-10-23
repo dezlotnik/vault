@@ -118,5 +118,19 @@ $$
 \end{aligned}
 $$
 
+## Discount Factor
+
+Often a discount factor $\gamma \in [0, 1]$ is included in the optimization
+such that we seek to maximize the discounted utility
+
+$$
+\begin{aligned}
+\text{max} \ \ \mathcal{U} = \mathbb{E} \left [ \sum_{t = 0}^{\infty} \gamma^t R_{a_t}(s_t, s_{t+1}) \right ].
+\end{aligned}
+$$
+
+## Related
+
+[[Partially Observable Markov Decision Process]]
 
 

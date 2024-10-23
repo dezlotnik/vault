@@ -20,3 +20,4 @@ tags: []
 
 ## Probabalistic Path Planning
 - [[Markov Decision Process]]
+- [[Partially Observable Markov Decision Process]]
