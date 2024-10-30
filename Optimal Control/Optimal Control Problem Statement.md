@@ -9,22 +9,24 @@ tags: []
 
 [[Dynamic Programming for Optimal Control]]
 
-## Continuous Time Finite Horizon
+#### Continuous Time Finite Horizon
 
-$$
-\begin{aligned}
-	& \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t),
-        t) \mathrm{d}t \\
-	& \text{subject to} \ \dot{x} = f(x, u, t)
-\end{aligned}
-$$
+> [!definition] Continuous Time Optimal Control Problem
+> $$
+> \begin{aligned}
+>	& \text{min}_u \ J  = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} \ell(x(t), u(t),
+>        t) \mathrm{d}t \\
+>	& \text{subject to} \ \dot{x} = f(x, u, t)
+> \end{aligned}
+> $$ 
+> ^continuous-time-optimal-control
 
-^9df567
+#### Discrete Time Finite Horizon
 
-## Discrete Time Finite Horizon
-$$
-\begin{aligned}
-	& \text{min}_u \ J  = \phi(x(N)) + \sum_{k=0}^{N} \ell(x(k), u(k)) \\
-	& \text{subject to} \ x(k+1) = f(x(k), u(k))
-\end{aligned}
-$$
+> [!definition] Discrete Time Optimal Control Problem
+> $$
+> \begin{aligned}
+> 	& \text{min}_u \ J  = \phi(x(N)) + \sum_{k=0}^{N} \ell(x(k), u(k)) \\
+> 	& \text{subject to} \ x(k+1) = f(x(k), u(k))
+> \end{aligned}
+> $$

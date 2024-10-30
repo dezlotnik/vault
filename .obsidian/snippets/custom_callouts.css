@@ -1,0 +1,9 @@
+.callout[data-callout="definition"] {
+    --callout-color: 255, 255, 255;
+    --callout-icon: book-text;
+}
+
+.callout[data-callout="problem-statement"] {
+    --callout-color: 255, 255, 255;
+    --callout-icon: lightbulb;
+}

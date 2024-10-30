@@ -9,7 +9,7 @@ tags: []
 
 The goal is to solve the following optimization problem,
 
-![[Optimal Control Problem Statement#^9df567]]
+![[Optimal Control Problem Statement#^continuous-time-optimal-control]]
 
 The value function, or cost-to-go, is
 

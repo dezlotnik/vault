@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Path Planning and Navigation/Markov Decision Process.md",
+                "file": "Optimal Control/Optimal Control Problem Statement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Path Planning and Navigation/Markov Decision Process.md",
+                "file": "Optimal Control/Optimal Control Problem Statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Path Planning and Navigation/Markov Decision Process.md",
+                "file": "Optimal Control/Optimal Control Problem Statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Path Planning and Navigation/Markov Decision Process.md"
+                "file": "Optimal Control/Optimal Control Problem Statement.md"
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "b3ee77bf8a1c3ad3",
   "lastOpenFiles": [
-    "Path Planning and Navigation/Partially Observable Markov Decision Process.md",
+    "Optimal Control/Dynamic Programming for Optimal Control.md",
+    "Optimal Control/Optimal Control Problem Statement.md",
+    "Reinforcement Learning/Temporal Difference Learning.md",
     "Path Planning and Navigation/Markov Decision Process.md",
+    "Reinforcement Learning",
+    "Path Planning and Navigation/Partially Observable Markov Decision Process.md",
     "State Estimation/Bayes Theorem.md",
     "Path Planning and Navigation/Path Planning and Navigation.md",
     "Algorithms and Data Structures/Breadth First Search.md",
@@ -159,9 +163,7 @@
     "Algorithms and Data Structures/Graph.md",
     "Algorithms and Data Structures/Tree.md",
     "Optimal Control/Hamilton Jacobi Bellman Equation.md",
-    "Optimal Control/Dynamic Programming for Optimal Control.md",
     "Algorithms and Data Structures/Dynamic Programming.md",
-    "Optimal Control/Optimal Control Problem Statement.md",
     "Path Planning and Navigation",
     "Algorithms and Data Structures/Graph Search.md",
     "Algorithms and Data Structures/A Star.md",
@@ -175,7 +177,6 @@
     "Algorithms and Data Structures/Greedy Algorithms.md",
     "Algorithms and Data Structures/Depth First Search.md",
     "Algorithms and Data Structures/Algorithms and Data Structures.md",
-    "Algorithms and Data Structures/Quick Sort.md",
     "Algorithms and Data Structures/Greedy Algorithms",
     "Algorithms and Data Structures/Merge Sort",
     "Algorithms and Data Structures/Bubble Sort",
@@ -185,7 +186,6 @@
     "Algorithms and Data Structures/attachments/Pasted image 20231123170734.png",
     "Algorithms and Data Structures/attachments",
     "Algorithms and Data Structures",
-    "site/State Estimation/Clustering/index.html",
     "site/Algorithms and Data Structures/attachments/Pasted image 20231123170734.png",
     "docs/Algorithms and Data Structures/attachments/Pasted image 20231123170734.png",
     "docs/Algorithms and Data Structures/Pasted image 20231123170702.png",

@@ -4,5 +4,8 @@
   "textFontFamily": "JetBrainsMonoNL Nerd Font",
   "baseFontSize": 12,
   "showViewHeader": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "custom_callouts"
+  ]
 }

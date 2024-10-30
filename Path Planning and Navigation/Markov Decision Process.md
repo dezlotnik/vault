@@ -129,6 +129,18 @@ $$
 \end{aligned}
 $$
 
+For $\gamma \in [0, 1)$, the discount factor ensures that the expected reward is
+finite over the infinite horizon.
+
+In this case the value function is
+
+$$
+\begin{aligned}
+  V(s_k) &= \mathbb{E} \left [ R_{a_k}(s_k, s_{k+1}) + \gamma V(s_{k+1}) \right ].
+\end{aligned}
+$$
+
+
 ## Related
 
 [[Partially Observable Markov Decision Process]]
