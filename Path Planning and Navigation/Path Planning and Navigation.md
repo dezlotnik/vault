@@ -2,6 +2,8 @@
 id: Path Planning and Navigation
 aliases:
   - Path Planning and Navigation
+  - Path Planning
+  - path planning
 tags: []
 ---
 

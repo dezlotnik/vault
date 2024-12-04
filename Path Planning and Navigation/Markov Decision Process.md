@@ -2,6 +2,8 @@
 id: Markov Decision Process
 aliases:
   - Markov Decision Process
+  - Markov decision process
+  - MDP
 tags: []
 ---
 
@@ -14,11 +16,19 @@ In an MDP, a decision maker must make a series of decisions over time, where
 each action can result in a reward or cost. The goal is to find the best
 sequence of actions to maximize the expected reward over a given time period.
 
-An MDP is a 4-tuple, $(S, A, P, R)$, made up of four parts:
-1. States
-2. Actions
-3. Transition probability function
-4. Reward
+> [!definition] Markov Decision Process
+> A Markov Decision Process (MDP) is a 4-tuple $(\mathbb{S}, \mathbb{A}, P, R)$, 
+> consisting of:
+> 1. $\mathbb{S}$, the state space,
+> 2. $\mathbb{A}$, the action space,
+> 3. $P: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \rightarrow \mathbb{R}$, the transition
+> probability function that determines the probability of transitioning to a
+> state $s^\prime \in \mathbb{S}$ given current state $s \in \mathbb{S}$ and 
+> action $a \in \mathbb{A}$. $P(s, a, s^\prime) = p(s^\prime | s, a)$.
+> 4. $R: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \rightarrow \mathbb{R}$,
+> is the reward function that determines the immediate reward from transitioning
+> to state $s^\prime$ from state $s$ via action $a$.
+> ^def-mdp
 
 For discrete states and actions the MDP can be represented as a [[Graph]].
 

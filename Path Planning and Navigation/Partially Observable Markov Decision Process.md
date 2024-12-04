@@ -13,18 +13,24 @@ making decisions with full knowledge of the system state. The POMDP extends this
 to the case where the agent must make observations of the underlying state,
 where the observations themselves have some associated uncertainty.
 
-The POMDP is defined at the 6-tuple $(S, A, T, R, Z, O)$, where, as in the
-MDP:
-- $S$ is the set of system states,
-- $A$ is the set of actions,
-- $T$ is the transition probability function,
-- $R$ is the reward.
+> [!definition] Partially Observable Markov Decision Process
+> A Partially Observable Markov Decision Process (POMDP) is a 6-tuple
+> $(\mathbb{S}, \mathbb{A}, P, R, \mathbb{Z}, O)$, consisting of:
+> 
+> 1. $\mathbb{S}$, the state space,
+> 2. $\mathbb{A}$, the action space,
+> 3. $P: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \rightarrow \mathbb{R}$, the transition
+> probability function that determines the probability of transitioning to a
+> state $s^\prime \in \mathbb{S}$ given current state $s \in \mathbb{S}$ and 
+> action $a \in \mathbb{A}$. $P(s, a, s^\prime) = p(s^\prime | s, a)$.
+> 4. $R: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \rightarrow \mathbb{R}$,
+> is the reward function that determines the immediate reward from transitioning
+> to state $s^\prime$ from state $s$ via action $a$.
+> 5. $\mathbb{Z}$, the set of possible observations.
+> 6. $O$, the observation probabilities.
+> ^def-pomdp
 
-The POMDP adds two addtional parameters:
-- $Z$ the set of observations (or measurements),
-- $O$ the set of observation probabilities.
-
-A iteration of the POMDP is as follows. First, the system is at some initial
+An iteration of the POMDP is as follows. First, the system is at some initial
 state, $s_1 \in S$. The agent then performs an action $a_1 \in A$ that
 transitions the state to a new state, $s_2$ with some probability
 $T(s_2 | s_1, a_1)$. Then, the agent receives an observation $z_2$ with
