@@ -83,5 +83,5 @@ graph TD
 * [[Temporal Difference Learning]] Algorithms that learn from incomplete episodes of experience by bootstrapping value estimates.
 
 ## Resources
-[Stanford CS234: Reinforcement Learning](https://youtu.be/WsvFL-LjA6U?si=nFsXYFY0y3vgAikw)
-[RL Course by David Silver](https://youtu.be/2pWv7GOvuf0?si=ffvyEvnAlfPjvG_r)
+- [Stanford CS234: Reinforcement Learning](https://youtu.be/WsvFL-LjA6U?si=nFsXYFY0y3vgAikw)
+- [RL Course by David Silver](https://youtu.be/2pWv7GOvuf0?si=ffvyEvnAlfPjvG_r)

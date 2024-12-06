@@ -24,6 +24,7 @@ $$
 
 Bellman Equation
 $$
+
 	J^*(s_i) = \text{min}_a \left [ \ell(s_i,a) + J^*(f(s_i, a)) \right ]
 $$
 
@@ -48,3 +49,5 @@ $$
 	\hat{J}^*(s_i) = \text{min}_{a \in A} [ \ell(s_i, a)
         + \hat{J}^*(f(s_i, a))].
 $$
+
+This is the [[Value Iteration]] algorithm.
