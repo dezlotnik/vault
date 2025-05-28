@@ -2,6 +2,7 @@
 id: Value Function
 aliases:
   - Value Function
+  - value function
 tags: []
 ---
 

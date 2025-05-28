@@ -18,8 +18,8 @@ discounted sum of rewards when starting in a state, taking an action, and then
 following a policy for the remainder of the horizon.
 
 > [!definition] $Q$ Function
-> The function $Q^\pi: S \times A \rightarrow \mathbb{R}$, called the $Q$
-> function or the state-action value function, is
+> The function $Q^\pi: S \times A \rightarrow \mathbb{R}$, called the $Q$ function or the
+> state-action value function, is
 > $$
 > \begin{aligned}
 >     Q^\pi(s,a) = r(s,a) + \gamma \sum_{s^\prime \in S} p(s^\prime | s,a) V^\pi(s^\prime)

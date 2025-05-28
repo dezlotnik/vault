@@ -14,7 +14,13 @@ as it allows us to assess the quality of a policy and identify areas for
 improvement.
 
 ## Types of policy evaluation
+
+### Known Model
 - [[Policy Iteration]]
 - [[Value Iteration]]
-- [[Monte Carlo Rollout]]
+
+### Unknown Model
+- [[Monte Carlo Policy Evaluation]]
+- [[Temporal Difference Learning]]
+- [[Certainty Equivalence with Dynamic Programming]]
 

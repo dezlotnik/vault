@@ -8,7 +8,7 @@ tags: []
 
 # Stochastic Process
 
-> [!definition] Stochastic Process
+> [!definition] Stochastic Process ^def-stochastic-process
 > A stochastic process, denoted as $\{X_t\}_{t \in T}$, is a collection of
 > random variables indexed by a parameter set $T$.
 >
